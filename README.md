@@ -4,11 +4,15 @@
 ### import all libraries required
 
 import pyfirmata as pf
+
 import matplotlib.pyplot as plt
+
 import time
+
 import numpy as np
 
 port = '/dev/cu.usbserial-1430'
+
 board = pf.Arduino(port)
 
 ### iterator is used to read all imports from the circuit
